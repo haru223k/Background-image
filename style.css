@@ -1,0 +1,58 @@
+/*Nav>> Books, about, blog, contact */
+.link {
+  position: absolute;
+  top: 29px;
+  right: -160px;
+  font-family: "Merriweather", serif;
+}
+/* all hyperlink "a" */
+a {
+  color: #d4623f;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #000;
+  margin: 0 20px;
+  font-size: 41px;
+  display: inline-block;
+}
+/* signup button */
+.button-signup a {
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+  line-height: 40px;
+  background: #f9f9a7;
+  color: #18332a;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  left: 18px;
+  right: 10px;
+  top: 1px;
+  font-size: 35px;
+  border-radius: 9px;
+  text-shadow: none;
+  padding-top: 5px;
+}
+/* learn more button */
+.button-learn_more a {
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+  line-height: 40px;
+  background: #f9f9a7;
+  color: #18332a;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  left: -800px;
+  right: 10px;
+  top: 560px;
+  font-size: 30px;
+  border-radius: 9px;
+  text-shadow: none;
+  padding-top: 5px;
+}
+
+a:hover{
+  color: #d51575;
+}
